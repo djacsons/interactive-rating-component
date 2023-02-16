@@ -89,6 +89,7 @@ button{
     .ratingBox{
         padding: 5%;
         margin: 2%;
+        margin-top: 30%;
         width: 80%;
     }
 }
