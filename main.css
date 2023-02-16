@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: overpass;
+    color: hsl(0, 0%, 100%);
+}
+h1{
+    margin: 0;
+    margin-top: 1rem;
+}
+.circle{
+    border-radius: 30px;
+    background-color: rgb(66, 76, 73);
+    border: none;
+}
+.star{
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    border-radius: 20px;
+    height: 3rem;
+    margin-top: 1rem;
+    font-size: larger;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+}
+.submit:active{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.number{
+    width: 4em;
+    height: 4em;
+}
+.number:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+.number:active{
+    background-color: hsl(25, 97%, 53%);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    cursor: pointer;
+}
+
+.ratingBox{
+    background-color: hsl(213, 19%, 18%);
+    width: 23rem;
+    height: 27rem;
+    border-radius: 30px;
+    margin-top: 10%;
+    padding: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subtext{
+    margin-top: 0;
+    line-height: 30px;
+}
+
+@media only screen and (max-width:600px){
+    .ratingBox{
+        padding: 5%;
+    }
+}

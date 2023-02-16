@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div id = "ratingBox" class="ratingBox">
+
+      <div class="circle star">
+        <img src="images/icon-star.svg" alt="">
+      </div>
+      
+      <h1 class="text">How did we do?</h1>
+      
+      <p class="text subtext">
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+
+      <div class="buttons">
+      <button class = "circle number text" onclick="currentBtn = this">1</button>
+      <button class = "circle number text" onclick="currentBtn = this">2</button>
+      <button class = "circle number text" onclick="currentBtn = this">3</button>
+      <button class = "circle number text" onclick="currentBtn = this">4</button>
+      <button class = "circle number text" onclick="currentBtn = this">5</button>
+      </div>
+      
+      <button id = "submit" class="submit text" onclick="submitBtn()">Submit</button>
+    
+      </div>
+     
+  </main>
+  <footer>
+    <br>
+    <div class="attribution text">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/djacsons">Djacson Stvil</a>.
+    </div>  
+  </footer>  
+  
+  <script src="main.js"></script>
+</body>
+</html>
